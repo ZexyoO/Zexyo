@@ -28,6 +28,11 @@ body {
     color: #fff;
 }
 
+#contact {
+    margin-left: 0;
+    color: #757474;
+}
+
 /* Style for the bordered box */
 .bordered-box {
     padding: 20px;
@@ -35,7 +40,7 @@ body {
     background-color: #333; /* Box background */
     color: white;
     text-align: center;
-    width: 50%; /* Adjust width as needed */
+    width: 80%; /* Adjust width as needed */
     max-width: 600px; /* Max width for larger screens */
     box-sizing: border-box;
     overflow: auto; /* Scrollbar appears if content overflows */
