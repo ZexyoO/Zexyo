@@ -28,7 +28,7 @@ body {
     color: #fff;
 }
 
-#contact {
+.contact {
     margin-left: 0;
     color: #757474;
 }
@@ -44,4 +44,29 @@ body {
     max-width: 600px; /* Max width for larger screens */
     box-sizing: border-box;
     overflow: auto; /* Scrollbar appears if content overflows */
+}
+
+/* Responsive Button Styling */
+.home-button {
+    background-color: #444; /* Dark background */
+    color: #fff; /* White text */
+    border: none;
+    padding: 15px 30px;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+    background-color: #666; /* Lighter background on hover */
+}
+
+/* Responsive Styling for Mobile */
+@media (max-width: 768px) {
+    .home-button {
+        padding: 12px 24px;
+        font-size: 16px;
+    }
 }
