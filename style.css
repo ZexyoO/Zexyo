@@ -47,7 +47,7 @@ body {
 }
 
 /* Responsive Button Styling */
-.Read-me {
+.home-button {
     background-color: #444; /* Dark background */
     color: #fff; /* White text */
     border: none;
@@ -59,13 +59,13 @@ body {
     transition: background-color 0.3s ease;
 }
 
-.Read-me:hover {
+.home-button:hover {
     background-color: #666; /* Lighter background on hover */
 }
 
 /* Responsive Styling for Mobile */
 @media (max-width: 768px) {
-    .Read-me {
+    .home-button {
         padding: 12px 24px;
         font-size: 16px;
     }
