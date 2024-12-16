@@ -20,13 +20,15 @@ body {
 }
 
 /* Adjusted .Damien class */
-#Damien {
+#Left {
     margin-left: 0; /* Remove excessive margin */
     overflow-wrap: break-word; /* Ensure long words break correctly */
     white-space: normal; /* Allow text wrapping */
     text-align: left; /* Optional: align text for better readability */
     color: #fff;
 }
+
+
 
 .contact {
     margin-left: 0;
@@ -69,4 +71,25 @@ body {
         padding: 12px 24px;
         font-size: 16px;
     }
+}
+
+.miguel-link {
+    color: #ffffff; /* White color */
+    text-decoration: none; /* Removes default underline */
+    font-size: 1.1em; /* Adjusts the text size */
+    font-weight: 500; /* Medium font weight for cleaner look */
+    transition: color 0.3s ease, text-shadow 0.3s ease; /* Smooth hover effects */
+}
+
+.miguel-link:hover {
+    color: #f0f0f0; /* Slightly lighter color on hover */
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.6); /* Adds a subtle glow effect */
+    text-decoration: underline; /* Adds underline only on hover */
+}
+.new-text {
+    color: red; /* Keeps the red color */
+    font-size: 0.9em; /* Optional: Adjust text size */
+    display: block; /* Ensures it behaves like a new line */
+    margin-top: 10px; /* Adds spacing below the text */
+    text-align: left;
 }
