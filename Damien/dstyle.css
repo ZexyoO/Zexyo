@@ -6,9 +6,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
     background-color: #222; /* Adjust background color */
 }
 
+/* Container to center content */
 .container {
     display: flex;
     justify-content: center;
@@ -17,9 +19,8 @@ body {
     height: 100%;
 }
 
-
 /* Adjusted .Damien class */
-#Info {
+#Damien {
     margin-left: 0; /* Remove excessive margin */
     overflow-wrap: break-word; /* Ensure long words break correctly */
     white-space: normal; /* Allow text wrapping */
@@ -27,84 +28,15 @@ body {
     color: #fff;
 }
 
-
-.responsive-image {
-    width: 90%; /* Adjust the width percentage to make it smaller */
-    max-width: 400px; /* Optional: limit the size on large screens */
-    height: auto; /* Maintains the aspect ratio */
-    display: block; /* Removes extra bottom spacing */
-    margin: 0 auto; /* Centers the image horizontally */
-    border: solid white;
-    border-radius: 8px; /* Optional: adds rounded corners */
-}
-
-
-/* Existing box styles */
+/* Style for the bordered box */
 .bordered-box {
     padding: 20px;
     border: 2px solid #fff; /* White border */
     background-color: #333; /* Box background */
     color: white;
     text-align: center;
-    width: 90%;  /* Box takes up 90% of container width */
-    max-width: 1000px; /* Increased max width for larger screens */
-    height: auto; /* Auto height adjusts with content */
+    width: 50%; /* Adjust width as needed */
+    max-width: 600px; /* Max width for larger screens */
     box-sizing: border-box;
-    overflow: hidden; /* Prevents overflow of content */
-    word-wrap: break-word; /* Ensures long words break */
+    overflow: auto; /* Scrollbar appears if content overflows */
 }
-
-/* Style the entire scrollbar */
-::-webkit-scrollbar {
-    width: 12px;  /* Width of the vertical scrollbar */
-    height: 12px; /* Height of the horizontal scrollbar */
-}
-
-/* Style the thumb (the draggable part) */
-::-webkit-scrollbar-thumb {
-    background-color: #888; /* Gray color */
-    border-radius: 10px; /* Rounded corners */
-}
-
-/* Style the thumb on hover */
-::-webkit-scrollbar-thumb:hover {
-    background-color: #555; /* Darker shade on hover */
-}
-
-/* Style the track (the background of the scrollbar) */
-::-webkit-scrollbar-track {
-    background: #333; /* Dark background */
-    border-radius: 10px;
-}
-
-/* Style the corner of the scrollbar */
-::-webkit-scrollbar-corner {
-    background: #333;
-}
-
-
-/* Responsive Button Styling */
-.home-button {
-    background-color: #444; /* Dark background */
-    color: #fff; /* White text */
-    border: none;
-    padding: 15px 30px;
-    margin-top: 30px;
-    font-size: 18px;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.home-button:hover {
-    background-color: #666; /* Lighter background on hover */
-}
-
-/* Responsive Styling for Mobile */
-@media (max-width: 768px) {
-    .home-button {
-        padding: 12px 24px;
-        font-size: 16px;
-    }
-}
-
