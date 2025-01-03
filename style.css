@@ -1,0 +1,98 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222; /* Adjust background color */
+}
+
+/* Container to center content */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* Adjusted .Damien class */
+#Left {
+    margin-left: 0; /* Remove excessive margin */
+    overflow-wrap: break-word; /* Ensure long words break correctly */
+    white-space: normal; /* Allow text wrapping */
+    text-align: left; /* Optional: align text for better readability */
+    color: #fff;
+}
+
+
+
+.contact {
+    margin-left: 0;
+    color: #757474;
+}
+
+/* Style for the bordered box */
+.bordered-box {
+    padding: 20px;
+    border: 2px solid #fff; /* White border */
+    background-color: #333; /* Box background */
+    color: white;
+    text-align: center;
+    width: 80%; /* Adjust width as needed */
+    max-width: 600px; /* Max width for larger screens */
+    box-sizing: border-box;
+    overflow: auto; /* Scrollbar appears if content overflows */
+    transition: box-shadow 0.3s ease; /* Smooth transition for glowing effect */
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.7); /* Initial glow */
+}
+
+/* Responsive Button Styling */
+.home-button {
+    background-color: #444; /* Dark background */
+    color: #fff; /* White text */
+    border: none;
+    padding: 15px 30px;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+    background-color: #666; /* Lighter background on hover */
+}
+
+/* Responsive Styling for Mobile */
+@media (max-width: 768px) {
+    .home-button {
+        padding: 12px 24px;
+        font-size: 16px;
+    }
+}
+
+.miguel-link {
+    color: #ffffff; /* White color */
+    text-decoration: none; /* Removes default underline */
+    font-size: 1.1em; /* Adjusts the text size */
+    font-weight: 500; /* Medium font weight for cleaner look */
+    transition: color 0.3s ease, text-shadow 0.3s ease; /* Smooth hover effects */
+}
+
+.miguel-link:hover {
+    color: #f0f0f0; /* Slightly lighter color on hover */
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.6); /* Adds a subtle glow effect */
+    text-decoration: underline; /* Adds underline only on hover */
+}
+.new-text {
+    color: red; /* Keeps the red color */
+    font-size: 0.9em; /* Optional: Adjust text size */
+    display: block; /* Ensures it behaves like a new line */
+    margin-top: 10px; /* Adds spacing below the text */
+    text-align: left;
+}
+
